@@ -1,0 +1,192 @@
+/* body{
+    background-color:#E8DAEF;
+    } */
+.outer-box{
+  border: 1px solid rgb(172, 104, 156);
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  padding: auto;
+  display: inline-block;
+}
+/* .title{
+  border: 1px solid rgb(225, 11, 136);
+  height: 100px;
+  width: 200px;
+  box-shadow: 0px 2px 2px;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  transform: scale(0.8);
+  position: absolute;
+  padding: 10px;
+} */
+body{
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,247,29,0.9697128851540616) 51%, rgba(252,176,69,1) 92%);
+}
+.gradient{
+  background: linear-gradient(235deg, rgba(131,58,180,1) 0%, rgba(29,253,149,0.9697128851540616) 57%, rgba(252,176,69,1) 92%);
+ 
+}
+.gradient-box{
+  background: linear-gradient(90deg, rgba(120,117,185,0.46271008403361347) 0%, rgba(164,137,229,1) 35%, rgba(155,255,0,0.6671918767507004) 67%);
+}
+.bodycolor{
+   background: rgb(234,234,65);
+  background: linear-gradient(90deg, rgba(234,234,65,1) 0%, rgba(154,124,155,0.3489728655133929) 35%, rgba(0,212,255,1) 100%);  
+  height: 723px;
+  padding: 10px;
+   
+}
+.inputbox{
+  background: rgb(222,35,196);
+  background: linear-gradient(307deg, rgba(222,35,196,0.46271008403361347) 1%, rgba(168,160,187,1) 23%, rgba(155,255,0,0.6671918767507004) 89%);
+}
+.outputbox{
+  height: 25px;
+  width: 25px;
+}
+.App {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list:hover{
+  cursor: pointer;
+    background-color: #57c2d8;
+    height:fit-content;
+    color: black;
+    text-decoration:dotted;
+
+  }
+  .list1{
+    cursor:pointer;
+    padding-left: 1100px;
+  }
+
+.card{
+  height: 300px;
+  width: 300px;
+  border: 1px solid rgb(22, 22, 21);
+  display:inline-block;
+  transform: scale(0.8);
+  border-radius: 25px;
+}
+.card3{
+  height: 300px;
+  width: 300px;
+  border: 1px solid rgb(22, 22, 21);
+}
+
+.card1{
+  height: 200px;
+  width: 200px;
+  border: 2px solid brown;
+}
+.border{
+  text-align: center;
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  transform: translate(-5%, -5%);
+  padding: 10px;
+}
+#box{
+  background-color: rgba(132, 132, 237, 0.91);
+}
+.form{
+padding: 10px 10px 10px 10px;
+}
+.remember{
+  font-size: x-small;
+  padding-left: 10px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.user{
+  background-color: rgba(0, 0, 174, 0.516);
+  height: 32px;
+  width: 300px;
+  text-align: center;
+  box-sizing: border-box;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+.button{
+  height: 30px;
+  width: 200px;
+  background-color: rgba(18, 18, 97, 0.682);
+  color: white;
+  cursor: pointer;
+}
+
+
+
+.username{
+  height: 30px;
+  width: 250px;
+}
+.last{
+  height: 30px;
+  width: 250px;
+}
+.phone{
+  height: 30px;
+  width: 250px;
+}
+.age{
+  height: 30px;
+  width: 250px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.error{
+  font-size: 10px;
+  color: rgba(247, 9, 9, 0.948);
+  
+}
+#box{
+  border: 2px solid black;
+  height: 400px;
+  width: 300px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+ 
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
